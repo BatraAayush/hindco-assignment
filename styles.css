@@ -197,3 +197,38 @@ footer .social-link{
 .large-head{
     font-size: 5rem;
 }
+
+@media screen and (max-width: 768px){
+  nav{
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  nav a{
+    margin: 0.2rem
+  }
+
+  .section-1 h1{
+    font-size: x-large;
+  }
+
+  .section-2 {
+    grid-template-columns: auto;
+  }
+
+  .section-2 .card{
+    width: 20rem;
+  }
+
+  footer{
+    padding: 2rem 1rem;
+  }
+
+  footer .desktop{
+    display: none;
+  }
+
+  footer .container-f1 div{
+    width: max-content;
+  }
+}
